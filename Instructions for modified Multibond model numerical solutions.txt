@@ -1,0 +1,26 @@
+CallMultibondCriticalStretch(Periodic or Harmonic)Potential.m , MultibondCriticalStretchRungeKutta(Periodic or Harmonic)Potential.m, and CalcResults(Periodic or Harmonic)Potential.m must be in the same folder.
+
+Choose the mechanical and dynamic parameters you wish to use on lines 8-28. You may on line 9.
+
+Run CallMultibondCriticalStretch(Periodic or Harmonic)Potential.m
+
+CalcResults(Periodic or Harmonic)Potential.m produces a vector C with the following information:
+
+T(temperature)
+NoiseMultiplier(zeta)
+N(number of sites)	
+ns(eta substrate) 
+nc(etacantilever) 
+nu(eta zub+eta cant) 
+theta(eta cant/eta nu)	
+ks(substrate spring constant)	
+kccantilever spring constant)		
+Noise Param(the noise parameter) 
+tTot(total time) 
+tStep(the time step)	
+V(speed) 
+Ff(mean friction) 
+Std Ff(standard deviation of the friction) 
+t-Not-Bonded(percenttime not bonded) 
+Max Ff(the maximum Ff) 
+First-Slip-Ff(the Ff at the first slip)
