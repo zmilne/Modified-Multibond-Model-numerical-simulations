@@ -29,6 +29,6 @@ ksub=1.3;kcant=10;%The substrate and cantilever spring constants.
 
 
 for i=1:length(velocity)%Runs for each velocity
-        [MeanFf(i) MaxFf(i) StdFf(i) NoiseParamSub(i) NoiseParamCant(i)]=MultibondCriticalStretchRungKuttaPeriodicPotential(velocity(i),Temp(i),gammaSub(i),gammaCant(i),Ender(i),noiseMult,n,ksub,kcant,timeStep,aTimes);
+        [MeanFf(i) MaxFf(i) StdFf(i) NoiseParamSub(i) NoiseParamCant(i)]=MultibondCriticalStretchRungeKuttaPeriodicPotential(velocity(i),Temp(i),gammaSub(i),gammaCant(i),Ender(i),noiseMult,n,ksub,kcant,timeStep,aTimes);
 end
 CalcResultsPeriodicPotential%Calculate results Periodic Potential

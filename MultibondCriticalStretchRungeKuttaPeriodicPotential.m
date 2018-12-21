@@ -3,7 +3,7 @@
 %Written by Zachary Banks Milne, University of Pennsylvania 
 %Copyright 2018, Zachary Banks Milne
 
-function [meanFf maxFf stdFf NoiseParamSub NoiseParamCant]=MultibondCriticalStretchPeriodicPotential(v,T,GamSub,GamCant,ender,NoiseMult,n,ksub,kcant,timeStep,aTimes)
+function [meanFf maxFf stdFf NoiseParamSub NoiseParamCant]=MultibondCriticalStretchRungeKuttaPeriodicPotential(v,T,GamSub,GamCant,ender,NoiseMult,n,ksub,kcant,timeStep,aTimes)
 clc
 clear X x MeanFf BondState tFree Ff StretchAtDebonding
 
