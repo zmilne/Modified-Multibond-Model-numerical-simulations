@@ -20,4 +20,4 @@ StdFirstSlipForce=std(C(:,end))
 MaxFf=MaxFf';
 FirstSlipForce=FirstSlipForce';
 % close all
-end 
+end

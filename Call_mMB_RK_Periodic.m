@@ -27,7 +27,7 @@ Ender=round(TotalTimeIndices*3/4);%How many indices, counting back from
 %(quasi-equilibrium) friction.
 Temp=[273*ones(1,length(v))];%Temperature(s)
 
-PeriodicAmplitudeOffset=1e-9; %Add to force to make the periodic force never go negative 
+PeriodicAmplitudeOffset=1e-9; %Add to force to make the periodic force never go negative
 
 
 
